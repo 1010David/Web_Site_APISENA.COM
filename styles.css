@@ -55,7 +55,7 @@ body {
 /* Estilos para el contenedor de títulos */
 .title-container {
     text-align: left; /* Alineación centrada horizontalmente */
-    padding-top: 110px; /* Espacio superior para mover hacia abajo */
+    padding-top: 105px; /* Espacio superior para mover hacia abajo */
     padding-bottom: 90px; /* Espacio inferior opcional */
 
 }
@@ -65,14 +65,14 @@ body {
     left: 50px;
     font-size: 140px;
     color: transparent; /* Hace que el texto sea transparente */
-  -webkit-text-stroke: 4px rgb(132, 141, 10); /* Agrega un borde amarillo alrededor del centro del texto */
+  -webkit-text-stroke: 4px rgb(8, 99, 8); /* Agrega un borde amarillo alrededor del centro del texto */
   -webkit-text-fill-color: #ecf005; /* Establece el color del relleno del texto en blanco */
   letter-spacing: 3px; /* Espaciado entre letras */
     margin: 0 0 20px;
     position: relative;
     padding-left: 75px; /* Espacio para la línea */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra del texto */
-    background-color: rgba(250, 246, 1, 0.1); /* Color de fondo con transparencia */
+    background-color: rgba(101, 250, 1, 0.1); /* Color de fondo con transparencia */
 
 }
 
@@ -85,18 +85,18 @@ body {
     transform: translateY(-50%);
     width: 27px; /* Ancho de la línea */
     height: 100%; /* Altura de la línea */
-    background-color: #f8d50d;
+    background-color: #77f80d;
 }
 
 
 /* Estilos para los subtítulos */
 .slogan-container h2 {
     background-color: rgba(124, 212, 128, 0.1); /* Color de fondo con transparencia */
-    font-size: 45px;
+    font-size: 44px;
     color: transparent; /* Hace que el texto sea transparente */
     -webkit-text-stroke: 1.8px rgb(180, 180, 8); /* Agrega un borde amarillo alrededor del centro del texto */
     -webkit-text-fill-color: #19a10d; /* Establece el color del relleno del texto en blanco */
-    letter-spacing: 3px; /* Espaciado entre letras */    margin: 0 0 20px;
+    letter-spacing: 4px; /* Espaciado entre letras */    margin: 0 0 20px;
     position: relative;
     padding-left: 50px; /* Espacio para la línea */
 }
@@ -137,35 +137,58 @@ body {
 
 
 #empresa {
-    margin-top: -70px; /* Ajusta el espacio superior según tu preferencia */
-    margin-left: 80px; /* Ajusta el espacio izquierdo según tu preferencia */
+    margin-top: 20px; /* Ajusta el espacio superior según tu preferencia */
+    margin-left: 90px; /* Ajusta el espacio izquierdo según tu preferencia */
     /* Otros estilos para la sección, como fondo, color de texto, etc. */
 }
 /* Estilos para el título de la sección "empresa" */
 #empresa h2 {
-    font-size: 33px; /* Tamaño de fuente del título */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
+    font-size: 36px; /* Tamaño de fuente del título */
     color: #287909; /* Color del texto del título */
-    margin: 0 0 10px; /* Espaciado inferior del título */
+    margin: 0 0 90px; /* Espaciado inferior del título */
 }
 
 /* Estilos para la descripción de la sección "empresa" */
 #empresa p {
-    font-size: 28px; /* Tamaño de fuente de la descripción */
+    margin-left: 70px; /* Ajusta el espacio izquierdo según tu preferencia */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
+    font-size: 29px; /* Tamaño de fuente de la descripción */
     color: #e48b37; /* Color del texto de la descripción */
-    margin: 0; /* Elimina el margen inferior de la descripción */
-}
-#empresa p {
-    font-size: 28px; /* Tamaño de fuente de la descripción */
-    color: #e48b37; /* Color del texto de la descripción */
-    margin: 0; /* Elimina el margen inferior de la descripción */
     white-space: pre-line; /* Permite mantener los saltos de línea */
     text-align: left; /* Alinea el texto a la izquierda */
 }
 
 
+
+#empresa1 {
+    position: absolute;
+    margin-top: 1300px; /* Ajusta el espacio superior según tu preferencia */
+    margin-left: 200px; /* Ajusta el espacio izquierdo según tu preferencia */
+    /* Otros estilos para la sección, como fondo, color de texto, etc. */
+}
+/* Estilos para el título de la sección "empresa" */
+#empresa1 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
+    font-size: 40px; /* Tamaño de fuente del título */
+    color: #a06f05; /* Color del texto del título */
+}
+
+
+#empresa1 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
+    font-size: 28px; /* Tamaño de fuente de la descripción */
+    color: #2f8d0a; /* Color del texto de la descripción */
+    margin: 0; /* Elimina el margen inferior de la descripción */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+
+
+
 .hexagon-containerp {
     position: absolute;
-    top: 1340px;
+    top: 1540px;
     left:  410px;
     transform: translateY(-50%);
     z-index: 1;
@@ -193,7 +216,7 @@ body {
 
 .product-container4 {
     position: absolute;
-    top: 955px; /* Ajusta la posición superior según tu diseño */
+    top: 1150px; /* Ajusta la posición superior según tu diseño */
     left: 695px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -211,7 +234,7 @@ body {
 }
 .fondo-container4 {
     position: absolute;
-    top: 950px; /* Ajusta la posición superior según tu diseño */
+    top: 1150px; /* Ajusta la posición superior según tu diseño */
     left: 680px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -231,8 +254,8 @@ body {
 
 .product-container2 {
     position: absolute;
-    top: 950px; /* Ajusta la posición superior según tu diseño */
-    left: 210px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1150px; /* Ajusta la posición superior según tu diseño */
+    left: 233px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
@@ -249,8 +272,8 @@ body {
 }
 .fondo-container2 {
     position: absolute;
-    top: 950px; /* Ajusta la posición superior según tu diseño */
-    left: 201px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1150px; /* Ajusta la posición superior según tu diseño */
+    left: 220px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
@@ -269,8 +292,8 @@ body {
 
 .product-container3{
     position: absolute;
-    top: 1340px; /* Ajusta la posición superior según tu diseño */
-    left: 23px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1540px; /* Ajusta la posición superior según tu diseño */
+    left: 35px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
@@ -287,7 +310,7 @@ body {
 }
 .fondo-container3 {
     position: absolute;
-    top: 1338px; /* Ajusta la posición superior según tu diseño */
+    top: 1540px; /* Ajusta la posición superior según tu diseño */
     left: 16px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -309,7 +332,7 @@ body {
 
 .product-container5{
     position: absolute;
-    top: 1330px; /* Ajusta la posición superior según tu diseño */
+    top: 1540px; /* Ajusta la posición superior según tu diseño */
     left: 890px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -327,7 +350,7 @@ body {
 }
 .fondo-container5 {
     position: absolute;
-    top: 1335px; /* Ajusta la posición superior según tu diseño */
+    top: 1535px; /* Ajusta la posición superior según tu diseño */
     left: 880px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -346,8 +369,8 @@ body {
 
 .product-container6{
     position: absolute;
-    top: 1720px; /* Ajusta la posición superior según tu diseño */
-    left: 240px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1920px; /* Ajusta la posición superior según tu diseño */
+    left: 230px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
@@ -364,8 +387,8 @@ body {
 }
 .fondo-container6 {
     position: absolute;
-    top: 1710px; /* Ajusta la posición superior según tu diseño */
-    left: 225px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1910px; /* Ajusta la posición superior según tu diseño */
+    left: 220px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
@@ -384,8 +407,8 @@ body {
 
 .product-container7 {
     position: absolute;
-    top: 1715px; /* Ajusta la posición superior según tu diseño */
-    left: 720px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1915px; /* Ajusta la posición superior según tu diseño */
+    left: 710px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
@@ -402,8 +425,8 @@ body {
 }
 .fondo-container7 {
     position: absolute;
-    top: 1710px; /* Ajusta la posición superior según tu diseño */
-    left: 700px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1910px; /* Ajusta la posición superior según tu diseño */
+    left: 690px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
@@ -603,7 +626,8 @@ body {
 /* Estilos para el contenedor de testimonios */
 
 #testimonials {
-    margin-top: 1400px;
+    margin-top: 1650px;
+
 }
 
 .testimonial-container {
@@ -635,7 +659,7 @@ body {
 .testimonial p {
     font-size: 16px; /* Tamaño de fuente del texto del testimonio */
     color: #666; /* Color del texto del testimonio */
-    margin: 0 0 20px; /* Espacio inferior del texto del testimonio */
+    margin: 0 0 30px; /* Espacio inferior del texto del testimonio */
 }
 
 /* Estilos para el nombre del cliente */
@@ -646,4 +670,33 @@ body {
 }
 
 
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    text-align: center;
+    padding: 140px 0; /* Espaciado interno superior e inferior del pie de página */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px; /* Agrega un margen superior para separar el pie de página de la sección de testimonios */
 
+  }
+  
+  /* Estilos para el texto dentro del pie de página */
+  footer p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    font-size: 14px; /* Tamaño de fuente del texto del pie de página */
+  }
+  
+  /* Estilo para el enlace de derechos de autor (© 2023 APISENA - Carlos Arboleda) */
+  footer a {
+    color: #fff; /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none; /* Elimina la subraya predeterminada del enlace */
+  }
+  
+  /* Estilo para el enlace cuando se coloca el cursor sobre él */
+  footer a:hover {
+    text-decoration: underline; /* Agrega una subraya cuando se coloca el cursor sobre el enlace */
+  }
+  
