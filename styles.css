@@ -164,50 +164,6 @@ body {
 
 
 
-/* Estilos para la sección "empresa1" */
-#empresa1 {
-    position: absolute; /* Cambiado a relativo para que los elementos fluyan en el documento */
-    margin-top: 1260px; /* Ajusta el espacio superior según tu preferencia */
-    background-color: #edfce3; /* Cambia el color de fondo según tus preferencias */
-    padding: 70px; /* Añade espacio interno para separar el contenido del borde */
-    text-align: center; /* Alinea el contenido al centro */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
-}
-
-/* Estilos para el título de la sección "empresa1" */
-#empresa1 h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 33px;
-    color: #ce890a;
-    margin: 0 0 20px; /* Espaciado inferior del título */
-}
-
-/* Estilos para el texto de la sección "empresa1" */
-#empresa1 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 28px;
-    color: #2f8d0a;
-    margin: 0 0 30px; /* Espaciado inferior del texto */
-    text-align: center;
-}
-
-/* Estilos para el contenedor de la sección "empresa1" */
-#empresa1 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Alinea los elementos verticalmente */
-}
-
-/* Estilos para una imagen si deseas agregar una */
-#empresa1 img {
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho de su contenedor */
-    margin-bottom: 20px; /* Espaciado inferior de la imagen */
-}
-
-
-
-
 
 .hexagon-containerp {
     position: absolute;
@@ -646,51 +602,111 @@ body {
   ); /* Define la forma del hexágono */
 } 
 
-/* Estilos para el contenedor de testimonios */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para la sección "empresa1" */
+#empresa1 {
+    position: absolute; /* Cambiado a relativo para que los elementos fluyan en el documento */
+    margin-top: 1220px; /* Ajusta el espacio superior según tu preferencia */
+    background-color: #f2f898; /* Cambia el color de fondo según tus preferencias */
+    padding: 70px; /* Añade espacio interno para separar el contenido del borde */
+    text-align: center; /* Alinea el contenido al centro */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+/* Estilos para el título de la sección "empresa1" */
+#empresa1 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 33px;
+    color: #ce890a;
+    margin: 0 0 20px; /* Espaciado inferior del título */
+}
+
+/* Estilos para el texto de la sección "empresa1" */
+#empresa1 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    color: #2f8d0a;
+    margin: 0 0 30px; /* Espaciado inferior del texto */
+    text-align: center;
+}
+
+/* Estilos para el contenedor de la sección "empresa1" */
+#empresa1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+}
+
+/* Estilos para una imagen si deseas agregar una */
+#empresa1 img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de su contenedor */
+    margin-bottom: 20px; /* Espaciado inferior de la imagen */
+}
+
 
 #testimonials {
-    margin-top: 1750px;
+    position: absolute;
+    margin-top: 1590px;
 
+    background-color: #f0e2b5; /* Cambia el color de fondo según tus preferencias */
+    padding: 50px 0; /* Añade espacio interno superior e inferior del testimonio */
+    text-align: center; /* Alinea el contenido al centro */
 }
 
 .testimonial-container {
-    display: flex; /* Mostrar los testimonios en una fila */
+    display: flex;
     justify-content: space-around; /* Espacio uniforme entre los testimonios */
     align-items: center; /* Alinear verticalmente al centro */
     flex-wrap: wrap; /* Envolver los testimonios si no caben en una fila */
 }
 
-/* Estilos para cada testimonio individual */
 .testimonial {
     background-color: #fff; /* Color de fondo del testimonio */
     border-radius: 10px; /* Bordes redondeados */
     padding: 20px; /* Espacio interno */
     max-width: 400px; /* Ancho máximo del testimonio */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
-    margin: 0px; /* Margen entre testimonios */
+    margin: 20px; /* Margen entre testimonios */
     text-align: left; /* Alineación del texto a la izquierda */
 }
 
-/* Estilos para el título del testimonio */
-.testimonial h3 {
-    font-size: 24px; /* Tamaño de fuente del título */
-    color: #333; /* Color del texto del título */
-    margin: 0 0 10px; /* Espacio inferior del título */
+.testimonial img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del testimonio */
+    border-radius: 50%; /* Bordes redondeados para la imagen del cliente */
 }
 
-/* Estilos para el texto del testimonio */
 .testimonial p {
     font-size: 16px; /* Tamaño de fuente del texto del testimonio */
-    color: #666; /* Color del texto del testimonio */
-    margin: 0 0 30px; /* Espacio inferior del texto del testimonio */
+    color: #333; /* Color del texto del testimonio */
+    margin: 0 0 20px; /* Espaciado inferior del texto del testimonio */
 }
 
-/* Estilos para el nombre del cliente */
 .testimonial cite {
     font-size: 18px; /* Tamaño de fuente del nombre del cliente */
-    color: #444; /* Color del nombre del cliente */
-
+    color: #777; /* Color del nombre del cliente */
 }
+
+
+
+
+
 
 
 
@@ -698,14 +714,12 @@ body {
 
 /* Estilos generales para el pie de página */
 footer {
+    margin-top: 2050px;
     background-color: #bac709; /* Cambia el color de fondo según tus preferencias */
     color: #fff; /* Cambia el color del texto según tus preferencias */
     text-align: center;
     padding: 33px 0; /* Espaciado interno superior e inferior del pie de página */
-    position: relative;
-    bottom: 0;
     width: 100%;
-    margin-top: 40px; /* Agrega un margen superior para separar el pie de página de la sección de testimonios */
 }
 
 /* Estilos para el contenido del pie de página */
@@ -715,7 +729,6 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
-
 
 
 /* Estilos para el menú de opciones */
