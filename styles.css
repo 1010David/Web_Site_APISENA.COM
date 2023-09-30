@@ -149,7 +149,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
     font-size: 35px; /* Tamaño de fuente del título */
     color: #287909; /* Color del texto del título */
-    margin: 0 0 80px 55px; /* Espaciado inferior, margen izquierdo para el título */
+    margin: 0 0 80px 80px; /* Espaciado inferior, margen izquierdo para el título */
 }
 
 /* Estilos para la descripción de la sección "empresa" */
@@ -172,7 +172,7 @@ body {
     transform: translateY(-50%);
     z-index: 1;
     width: 465px;
-    height: 495px;
+    height: 499px;
     background-color: rgba(238, 245, 200, 0.5);
     clip-path: polygon(
         50% 0%,
@@ -427,7 +427,7 @@ body {
 }
 
 /* Estilos para cada elemento de la lista de productos */
-.product-list li {
+.product-list h3 {
     font-size: 26px; /* Tamaño de fuente de los elementos de la lista */
     color: #08701a; /* Color del texto de los elementos de la lista */
     padding-left: 0px; /* Espacio a la izquierda para mover el elemento */
@@ -435,21 +435,36 @@ body {
     margin: 0; /* Elimina el margen predeterminado */
     padding-top: 100px; /* Ajusta el espaciado superior según tu diseño */
 
+
 }
 
-.product-container4 p,
-.product-container1 p,
-.product-container2 p,
-.product-container3 p,
-.product-container6 p,
-.product-container5 p,
-.product-container7 p
- {
-    font-size: 20px; /* Tamaño de fuente de la descripción */
-    color: #333; /* Color del texto de la descripción */
-    margin: 30px 0; /* Espaciado exterior de la descripción */
-    text-align: center; /* Centra el texto horizontalmente */
+
+
+.product-popup {
+    /* Estilos para la ventana emergente */
+    background-color: #f8fad7; /* Cambia el color de fondo */
+    border: 1px solid #0a9606; /* Cambia el borde */
+    padding: 10px; /* Cambia el espaciado interior */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Cambia la sombra */
+    z-index: 2; /* Cambia la posición en el apilamiento de capas */
+    max-width: 400px; /* Cambia el ancho máximo */
+    text-align: center; /* Alinea el texto a la izquierda dentro de la ventana emergente */
 }
+
+/* Estilos para los enlaces dentro de la ventana emergente */
+.product-popup a {
+    font-size: 18px; /* Cambia el tamaño de fuente del texto */
+    text-decoration: underline; /* Cambia la decoración del enlace */
+    color: #e06e11; /* Cambia el color del enlace */
+}
+
+/* Estilos para el texto dentro de la ventana emergente */
+.product-popup p {
+    font-size: 22px; /* Cambia el tamaño de fuente del texto */
+    color: #333; /* Cambia el color del texto */
+    margin-bottom: 10px; /* Cambia el espaciado inferior */
+}
+
 
 
 
@@ -630,7 +645,7 @@ body {
 }
 
 /* Estilos para el título de la sección "empresa1" */
-#empresa1 h2 {
+#empresa1 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 33px;
     color: #ce890a;
@@ -661,51 +676,41 @@ body {
 }
 
 
-#testimonials {
-    position: absolute;
-    margin-top: 1590px;
 
-    background-color: #f0e2b5; /* Cambia el color de fondo según tus preferencias */
-    padding: 50px 0; /* Añade espacio interno superior e inferior del testimonio */
-    text-align: center; /* Alinea el contenido al centro */
+/* Estilos para la sección de testimonios */
+#testimonials {
+    margin-top: 1615px;
+    padding: 10px ;
+    background-color: #f7fccd; /* Color de fondo de la sección */
 }
+
 
 .testimonial-container {
     display: flex;
-    justify-content: space-around; /* Espacio uniforme entre los testimonios */
-    align-items: center; /* Alinear verticalmente al centro */
-    flex-wrap: wrap; /* Envolver los testimonios si no caben en una fila */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden; /* Para ocultar los testimonios adicionales */
 }
 
 .testimonial {
-    background-color: #fff; /* Color de fondo del testimonio */
-    border-radius: 10px; /* Bordes redondeados */
-    padding: 20px; /* Espacio interno */
-    max-width: 400px; /* Ancho máximo del testimonio */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
-    margin: 20px; /* Margen entre testimonios */
-    text-align: left; /* Alineación del texto a la izquierda */
-}
-
-.testimonial img {
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho del testimonio */
-    border-radius: 50%; /* Bordes redondeados para la imagen del cliente */
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 50px;
+    max-width: 250px;
+    box-shadow: 0px 0px 15px rgba(67, 224, 5, 0.2);
+    margin: 10px;
+    text-align: center;
 }
 
 .testimonial p {
-    font-size: 16px; /* Tamaño de fuente del texto del testimonio */
-    color: #333; /* Color del texto del testimonio */
-    margin: 0 0 20px; /* Espaciado inferior del texto del testimonio */
+    font-size: 20px;
+    color: #2a681a;
 }
-
-.testimonial cite {
-    font-size: 18px; /* Tamaño de fuente del nombre del cliente */
-    color: #777; /* Color del nombre del cliente */
+.nombre-cliente {
+    font-size: 16px;
+    color: #b1a501;
 }
-
-
-
-
 
 
 
@@ -714,13 +719,41 @@ body {
 
 /* Estilos generales para el pie de página */
 footer {
-    margin-top: 2050px;
-    background-color: #bac709; /* Cambia el color de fondo según tus preferencias */
-    color: #fff; /* Cambia el color del texto según tus preferencias */
+    position: relative; /* Para que el pie de página pueda contener la imagen */
+    margin-top: 15px;
+    background-color: #f0f87f; /* Cambia el color de fondo según tus preferencias */
+    color: #19660f; /* Cambia el color del texto según tus preferencias */
     text-align: center;
-    padding: 33px 0; /* Espaciado interno superior e inferior del pie de página */
+    padding: 15px 0; /* Espaciado interno superior e inferior del pie de página */
     width: 100%;
 }
+
+/* Estilos para la imagen con descripción */
+.image-with-description {
+    margin-top: 10px;
+    margin-left: 540px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente la imagen y la descripción */
+}
+
+.image-with-description img {
+    padding: 20px;
+    max-width: 200px; /* Ancho máximo de la imagen */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    border: 2px solid #333; /* Agrega un borde a la imagen */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    margin-bottom: 20px; /* Espacio entre la imagen y la descripción */
+}
+
+.image-with-description span {
+    margin-left: -200px;
+    font-size: 18px; /* Tamaño de fuente para la descripción */
+    margin-top: 5px; /* Espacio entre la imagen y la descripción */
+    color: #2c7e1b; /* Color del texto según tus preferencias */
+}
+
+
 
 /* Estilos para el contenido del pie de página */
 .footer-content {
@@ -746,6 +779,7 @@ footer {
 
 /* Estilo para el texto de derechos de autor */
 .copyright {
+    margin-top: 49px;
     padding-top: 100px; /* Agrega espacio superior con padding en lugar de margen */
 }
 /* Estilo para el texto de derechos de autor */
@@ -756,7 +790,7 @@ footer p {
 /* Estilo para el enlace de derechos de autor (© 2023 APISENA - Carlos Arboleda) */
 footer a {
     font-size: 22px; /* Ajusta el tamaño del texto de los enlaces según tu preferencia */
-    color: #fff; /* Cambia el color del enlace según tus preferencias */
+    color: #187a1d; /* Cambia el color del enlace según tus preferencias */
     text-decoration: none; /* Elimina la subraya predeterminada del enlace */
 }
 
@@ -774,14 +808,14 @@ footer a:hover {
 footer .facebook-button {
     position: relative;
     left: 23px;
-    top: 49px;
+    top: 80px;
     display: inline-block;
     background-color: #1877f2; /* Cambia el color de fondo según tus preferencias */
     color: #fff; /* Cambia el color del texto según tus preferencias */
     padding: 15px 25px; /* Aumenta el espacio alrededor del icono */
     border-radius: 32px;
     text-decoration: none; /* Elimina la subraya predeterminada del enlace */
-    font-size: 32px; /* Ajusta el tamaño del texto según tu preferencia */
+    font-size: 38px; /* Ajusta el tamaño del texto según tu preferencia */
     margin-right: 20px; /* Espacio entre el botón de Facebook y las opciones de menú */
     transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
 }
