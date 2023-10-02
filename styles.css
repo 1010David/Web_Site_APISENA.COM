@@ -15,6 +15,7 @@ body {
 
 
 
+
 /* Estilos para la barra de navegación */
 .main-navigation {
     position: relative;
@@ -138,9 +139,12 @@ body {
 }
 
 
+
 #empresa {
     margin-top: 30px; /* Ajusta el espacio superior según tu preferencia */
-    margin-left: 55px; /* Ajusta el espacio izquierdo según tu preferencia */
+    margin-left: 100px; /* Ajusta el espacio izquierdo según tu preferencia */
+    margin-right: 120px; /* Ajusta el espacio izquierdo según tu preferencia */
+
     /* Otros estilos para la sección, como fondo, color de texto, etc. */
 }
 /* Estilos para el título de la sección "empresa" */
@@ -149,14 +153,14 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
     font-size: 35px; /* Tamaño de fuente del título */
     color: #287909; /* Color del texto del título */
-    margin: 0 0 80px 80px; /* Espaciado inferior, margen izquierdo para el título */
+    margin: 0 0 100px 10px; /* Espaciado inferior, margen izquierdo para el título */
 }
 
 /* Estilos para la descripción de la sección "empresa" */
 #empresa p {
-    margin-right: 230px; /* Ajusta el espacio izquierdo según tu preferencia */
+    margin-right: 300px; /* Ajusta el espacio izquierdo según tu preferencia */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
-    font-size: 28px; /* Tamaño de fuente de la descripción */
+    font-size: 30px; /* Tamaño de fuente de la descripción */
     color: #b95c05; /* Color del texto de la descripción */
     white-space: pre-line; /* Permite mantener los saltos de línea */
     text-align: left; /* Alinea el texto a la izquierda */
@@ -167,7 +171,7 @@ body {
 
 .hexagon-containerp {
     position: absolute;
-    top: 1570px;
+    top: 1690px;
     left:  414px;
     transform: translateY(-50%);
     z-index: 1;
@@ -195,7 +199,7 @@ body {
 
 .product-container4 {
     position: absolute;
-    top: 1230px; /* Ajusta la posición superior según tu diseño */
+    top: 1350px; /* Ajusta la posición superior según tu diseño */
     left: 684px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -213,7 +217,7 @@ body {
 }
 .fondo-container4 {
     position: absolute;
-    top: 1225px; /* Ajusta la posición superior según tu diseño */
+    top: 1345px; /* Ajusta la posición superior según tu diseño */
     left: 675px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -233,7 +237,7 @@ body {
 
 .product-container2 {
     position: absolute;
-    top: 1231px; /* Ajusta la posición superior según tu diseño */
+    top: 1352px; /* Ajusta la posición superior según tu diseño */
     left: 253px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -251,7 +255,7 @@ body {
 }
 .fondo-container2 {
     position: absolute;
-    top: 1225px; /* Ajusta la posición superior según tu diseño */
+    top: 1345px; /* Ajusta la posición superior según tu diseño */
     left: 235px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -271,8 +275,8 @@ body {
 
 .product-container3{
     position: absolute;
-    top: 1570px; /* Ajusta la posición superior según tu diseño */
-    left: 45px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1700px; /* Ajusta la posición superior según tu diseño */
+    left: 47px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
@@ -289,13 +293,13 @@ body {
 }
 .fondo-container3 {
     position: absolute;
-    top: 1570px; /* Ajusta la posición superior según tu diseño */
-    left: 23px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1700px; /* Ajusta la posición superior según tu diseño */
+    left: 25px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
     height: 420px;    
-    background-color: rgb(255, 252, 79); /* Color de fondo con transparencia */
+    background-color: rgb(238, 234, 16); /* Color de fondo con transparencia */
     clip-path: polygon(
         50% 0%,
         100% 25%,
@@ -311,7 +315,7 @@ body {
 
 .product-container5{
     position: absolute;
-    top: 1568px; /* Ajusta la posición superior según tu diseño */
+    top: 1700px; /* Ajusta la posición superior según tu diseño */
     left: 888px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -329,7 +333,7 @@ body {
 }
 .fondo-container5 {
     position: absolute;
-    top: 1568px; /* Ajusta la posición superior según tu diseño */
+    top: 1700px; /* Ajusta la posición superior según tu diseño */
     left: 883px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -348,7 +352,7 @@ body {
 
 .product-container6{
     position: absolute;
-    top: 1905px; /* Ajusta la posición superior según tu diseño */
+    top: 314%; /* Ajusta la posición superior según tu diseño */
     left: 250px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -366,7 +370,7 @@ body {
 }
 .fondo-container6 {
     position: absolute;
-    top: 1914px; /* Ajusta la posición superior según tu diseño */
+    top: 315%; /* Ajusta la posición superior según tu diseño */
     left: 234px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -386,7 +390,7 @@ body {
 
 .product-container7 {
     position: absolute;
-    top: 1905px; /* Ajusta la posición superior según tu diseño */
+    top: 314%; /* Ajusta la posición superior según tu diseño */
     left: 685px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -404,7 +408,7 @@ body {
 }
 .fondo-container7 {
     position: absolute;
-    top: 1914px; /* Ajusta la posición superior según tu diseño */
+    top: 315%; /* Ajusta la posición superior según tu diseño */
     left: 675px; /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
@@ -420,6 +424,9 @@ body {
         0% 25%
     ); /* Forma del contenedor */
 }
+
+
+
 /* Estilos para la lista de productos dentro del contenedor */
 .product-list {
     list-style-type: none; /* Elimina los puntos de la lista */
@@ -843,4 +850,22 @@ footer .facebook-button:hover {
     font-size: 33px; /* Ajusta el tamaño del icono según tu preferencia */
     color: #dceb0b;
 
+}
+
+
+
+/* Estilos generales para pantallas grandes */
+/* Por ejemplo, escritorios */
+@media screen and (min-width: 1024px) {
+    /* Aquí puedes agregar estilos para pantallas grandes */
+}
+
+/* Estilos para pantallas medianas, como tablets */
+@media screen and (max-width: 1023px) {
+    /* Estilos para tabletas */
+}
+
+/* Estilos para pantallas pequeñas, como teléfonos móviles */
+@media screen and (max-width: 767px) {
+    /* Estilos para teléfonos móviles */
 }
