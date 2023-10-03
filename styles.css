@@ -1,16 +1,21 @@
 html {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Tipo de fuente predeterminado */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Tipo de fuente predeterminado */
 }
+
 body {
     background-color: #f7fccd;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Alinea el contenido en columna (hacia arriba) */
-    justify-content: flex-start; /* Alinea el contenido hacia arriba */
+    flex-direction: column;
+    /* Alinea el contenido en columna (hacia arriba) */
+    justify-content: flex-start;
+    /* Alinea el contenido hacia arriba */
     height: 100vh;
     z-index: 1;
-    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    overflow-x: hidden;
+    /* Evita el desplazamiento horizontal */
 }
 
 
@@ -19,35 +24,52 @@ body {
 /* Estilos para la barra de navegación */
 .main-navigation {
     position: relative;
-    left: 60px; /* Mueve la barra de navegación hacia la derecha */
-    top: 50px; /* Baja la barra de navegación 20 píxeles desde la parte superior */
+    left: 60px;
+    /* Mueve la barra de navegación hacia la derecha */
+    top: 50px;
+    /* Baja la barra de navegación 20 píxeles desde la parte superior */
 }
+
 .main-navigation ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el relleno predeterminado de la lista */
 }
 
 .main-navigation ul li {
-    display: inline; /* Organiza los elementos horizontalmente */
-    margin-right: 10px; /* Espaciado entre los elementos */
+    display: inline;
+    /* Organiza los elementos horizontalmente */
+    margin-right: 10px;
+    /* Espaciado entre los elementos */
 }
 
 /* Estilos para los enlaces de navegación */
 .nav-link {
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: #44aa2b; /* Color del texto de los enlaces */
-    padding: 5px 22px; /* Espaciado interno para el fondo del enlace */
-    background-color: #f1e8b0; /* Color de fondo predeterminado */
-    border: 2px solid #f1f514; /* Borde alrededor del enlace */
-    border-radius: 12px; /* Bordes redondeados */
-    transition: background-color 0.2s; /* Transición de color de fondo */
-    font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    color: #44aa2b;
+    /* Color del texto de los enlaces */
+    padding: 5px 22px;
+    /* Espaciado interno para el fondo del enlace */
+    background-color: #f1e8b0;
+    /* Color de fondo predeterminado */
+    border: 2px solid #f1f514;
+    /* Borde alrededor del enlace */
+    border-radius: 12px;
+    /* Bordes redondeados */
+    transition: background-color 0.2s;
+    /* Transición de color de fondo */
+    font-size: 20px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
 
 }
 
 .nav-link:hover {
-    background-color: #5d8d51; /* Cambia el color de fondo al pasar el mouse */
-    color: #fdf8af; /* Cambia el color del texto al pasar el mouse */
+    background-color: #5d8d51;
+    /* Cambia el color de fondo al pasar el mouse */
+    color: #fdf8af;
+    /* Cambia el color del texto al pasar el mouse */
 }
 
 
@@ -55,9 +77,12 @@ body {
 
 /* Estilos para el contenedor de títulos */
 .title-container {
-    text-align: left; /* Alineación centrada horizontalmente */
-    padding-top: 120px; /* Espacio superior para mover hacia abajo */
-    padding-bottom: 40px; /* Espacio inferior opcional */
+    text-align: left;
+    /* Alineación centrada horizontalmente */
+    padding-top: 120px;
+    /* Espacio superior para mover hacia abajo */
+    padding-bottom: 40px;
+    /* Espacio inferior opcional */
 
 }
 
@@ -65,15 +90,22 @@ body {
 .logo-container h1 {
     left: 50px;
     font-size: 140px;
-    color: transparent; /* Hace que el texto sea transparente */
-    -webkit-text-stroke: 4px rgb(8, 99, 8); /* Agrega un borde amarillo alrededor del centro del texto */
-    -webkit-text-fill-color: #ecf005; /* Establece el color del relleno del texto en blanco */
-    letter-spacing: 3px; /* Espaciado entre letras */
+    color: transparent;
+    /* Hace que el texto sea transparente */
+    -webkit-text-stroke: 4px rgb(8, 99, 8);
+    /* Agrega un borde amarillo alrededor del centro del texto */
+    -webkit-text-fill-color: #ecf005;
+    /* Establece el color del relleno del texto en blanco */
+    letter-spacing: 3px;
+    /* Espaciado entre letras */
     margin: 0 0 30px;
     position: relative;
-    padding-left: 70px; /* Espacio para la línea */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra del texto */
-    background-color: rgba(101, 250, 1, 0.1); /* Color de fondo con transparencia */
+    padding-left: 70px;
+    /* Espacio para la línea */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Sombra del texto */
+    background-color: rgba(101, 250, 1, 0.1);
+    /* Color de fondo con transparencia */
 
 }
 
@@ -84,86 +116,122 @@ body {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 27px; /* Ancho de la línea */
-    height: 100%; /* Altura de la línea */
+    width: 27px;
+    /* Ancho de la línea */
+    height: 100%;
+    /* Altura de la línea */
     background-color: #77f80d;
 }
 
 
 /* Estilos para los subtítulos */
 .slogan-container h2 {
-    background-color: rgba(124, 212, 128, 0.1); /* Color de fondo con transparencia */
+    background-color: rgba(124, 212, 128, 0.1);
+    /* Color de fondo con transparencia */
     font-size: 44px;
-    color: transparent; /* Hace que el texto sea transparente */
-    -webkit-text-stroke: 1.7px rgb(180, 180, 8); /* Agrega un borde amarillo alrededor del centro del texto */
-    -webkit-text-fill-color: #19a10d; /* Establece el color del relleno del texto en blanco */
-    letter-spacing: 5px; /* Espaciado entre letras */    margin: 0 0 20px;
+    color: transparent;
+    /* Hace que el texto sea transparente */
+    -webkit-text-stroke: 1.7px rgb(180, 180, 8);
+    /* Agrega un borde amarillo alrededor del centro del texto */
+    -webkit-text-fill-color: #19a10d;
+    /* Establece el color del relleno del texto en blanco */
+    letter-spacing: 5px;
+    /* Espaciado entre letras */
+    margin: 0 0 20px;
     position: relative;
-    padding-left: 80px; /* Espacio para la línea */
+    padding-left: 80px;
+    /* Espacio para la línea */
     margin: 0 0 30px;
 
 }
 
 
 .subtitle-container h3 {
-    background-color: rgba(124, 212, 128, 0.1); /* Color de fondo con transparencia */
+    background-color: rgba(124, 212, 128, 0.1);
+    /* Color de fondo con transparencia */
     font-size: 47px;
-    color: transparent; /* Hace que el texto sea transparente */
-    -webkit-text-stroke: 1.8px rgb(182, 170, 11); /* Agrega un borde amarillo alrededor del centro del texto */
-    -webkit-text-fill-color: #0d8809; /* Establece el color del relleno del texto en blanco */
-    letter-spacing: 3px; /* Espaciado entre letras */    margin: 0 0 20px;
+    color: transparent;
+    /* Hace que el texto sea transparente */
+    -webkit-text-stroke: 1.8px rgb(182, 170, 11);
+    /* Agrega un borde amarillo alrededor del centro del texto */
+    -webkit-text-fill-color: #0d8809;
+    /* Establece el color del relleno del texto en blanco */
+    letter-spacing: 3px;
+    /* Espaciado entre letras */
+    margin: 0 0 20px;
     position: relative;
-    padding-left: 55px; /* Espacio para la línea */
+    padding-left: 55px;
+    /* Espacio para la línea */
 }
 
 /* Línea a la izquierda de los subtítulos */
-.slogan-container h2::before{
+.slogan-container h2::before {
     content: "";
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 44px; /* Ancho de la línea */
-    height: 100%; /* Altura de la línea */
+    width: 44px;
+    /* Ancho de la línea */
+    height: 100%;
+    /* Altura de la línea */
     background-color: #1e6e0a;
 }
+
 .subtitle-container h3::before {
     content: "";
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 33px; /* Ancho de la línea */
-    height: 100%; /* Altura de la línea */
+    width: 33px;
+    /* Ancho de la línea */
+    height: 100%;
+    /* Altura de la línea */
     background-color: #1e6e0a;
 }
 
 
 
 #empresa {
-    margin-top: 30px; /* Ajusta el espacio superior según tu preferencia */
-    margin-left: 100px; /* Ajusta el espacio izquierdo según tu preferencia */
-    margin-right: 120px; /* Ajusta el espacio izquierdo según tu preferencia */
+    margin-top: 30px;
+    /* Ajusta el espacio superior según tu preferencia */
+    margin-left: 100px;
+    /* Ajusta el espacio izquierdo según tu preferencia */
+    margin-right: 120px;
+    /* Ajusta el espacio izquierdo según tu preferencia */
 
     /* Otros estilos para la sección, como fondo, color de texto, etc. */
 }
+
 /* Estilos para el título de la sección "empresa" */
 #empresa h2 {
-    text-align: left; /* Alinea el texto a la izquierda */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
-    font-size: 35px; /* Tamaño de fuente del título */
-    color: #287909; /* Color del texto del título */
-    margin: 0 0 100px 10px; /* Espaciado inferior, margen izquierdo para el título */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Tipo de fuente predeterminado */
+    font-size: 35px;
+    /* Tamaño de fuente del título */
+    color: #287909;
+    /* Color del texto del título */
+    margin: 0 0 100px 10px;
+    /* Espaciado inferior, margen izquierdo para el título */
 }
 
 /* Estilos para la descripción de la sección "empresa" */
 #empresa p {
-    margin-right: 300px; /* Ajusta el espacio izquierdo según tu preferencia */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Tipo de fuente predeterminado */
-    font-size: 30px; /* Tamaño de fuente de la descripción */
-    color: #b95c05; /* Color del texto de la descripción */
-    white-space: pre-line; /* Permite mantener los saltos de línea */
-    text-align: left; /* Alinea el texto a la izquierda */
+    margin-right: 300px;
+    /* Ajusta el espacio izquierdo según tu preferencia */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Tipo de fuente predeterminado */
+    font-size: 30px;
+    /* Tamaño de fuente de la descripción */
+    color: #b95c05;
+    /* Color del texto de la descripción */
+    white-space: pre-line;
+    /* Permite mantener los saltos de línea */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
 }
 
 
@@ -172,275 +240,314 @@ body {
 .hexagon-containerp {
     position: absolute;
     top: 1690px;
-    left:  414px;
+    left: 414px;
     transform: translateY(-50%);
     z-index: 1;
     width: 465px;
     height: 499px;
     background-color: rgba(238, 245, 200, 0.5);
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    );
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
 }
+
 .hexagon-containerp img {
     position: absolute;
     top: 60%;
     left: 40%;
-    transform: translate(-40%, -60%); /* Centra la imagen horizontal y verticalmente */
-    max-width: 120%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+    transform: translate(-40%, -60%);
+    /* Centra la imagen horizontal y verticalmente */
+    max-width: 120%;
+    /* Ajusta el tamaño máximo de la imagen al contenedor */
     max-height: 120%;
 }
 
 
 .product-container4 {
     position: absolute;
-    top: 1350px; /* Ajusta la posición superior según tu diseño */
-    left: 684px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1350px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 684px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
-    height: 385px;    
-    background-color: rgba(255, 255, 255); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 385px;
+    background-color: rgba(255, 255, 255);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
+
 .fondo-container4 {
     position: absolute;
-    top: 1345px; /* Ajusta la posición superior según tu diseño */
-    left: 675px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1345px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 675px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
-    height: 420px;    
-    background-color: rgb(243, 240, 72); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 420px;
+    background-color: rgb(243, 240, 72);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
 
 
 .product-container2 {
     position: absolute;
-    top: 1352px; /* Ajusta la posición superior según tu diseño */
-    left: 253px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1352px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 253px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
-    height: 385px;    
-    background-color: rgba(252, 252, 252); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 385px;
+    background-color: rgba(252, 252, 252);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
+
 .fondo-container2 {
     position: absolute;
-    top: 1345px; /* Ajusta la posición superior según tu diseño */
-    left: 235px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1345px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 235px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
-    height: 420px;    
-    background-color: rgb(247, 244, 64); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 420px;
+    background-color: rgb(247, 244, 64);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
 
 
-.product-container3{
+.product-container3 {
     position: absolute;
-    top: 1700px; /* Ajusta la posición superior según tu diseño */
-    left: 47px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1700px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 47px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
-    height: 385px;    
-    background-color: rgb(250, 250, 248); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 385px;
+    background-color: rgb(250, 250, 248);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
+
 .fondo-container3 {
     position: absolute;
-    top: 1700px; /* Ajusta la posición superior según tu diseño */
-    left: 25px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1700px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 25px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
-    height: 420px;    
-    background-color: rgb(238, 234, 16); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 420px;
+    background-color: rgb(238, 234, 16);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
 
 
 
 
-.product-container5{
+.product-container5 {
     position: absolute;
-    top: 1700px; /* Ajusta la posición superior según tu diseño */
-    left: 888px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1700px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 888px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
-    height: 385px;    
-    background-color: rgb(255, 255, 255); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
+
 .fondo-container5 {
     position: absolute;
-    top: 1700px; /* Ajusta la posición superior según tu diseño */
-    left: 883px; /* Ajusta la posición izquierda según tu diseño */
+    top: 1700px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 883px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
-    height: 420px;    
-    background-color: rgb(238, 234, 16); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 420px;
+    background-color: rgb(238, 234, 16);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
 
-.product-container6{
+.product-container6 {
     position: absolute;
-    top: 314%; /* Ajusta la posición superior según tu diseño */
-    left: 250px; /* Ajusta la posición izquierda según tu diseño */
+    top: 314%;
+    /* Ajusta la posición superior según tu diseño */
+    left: 250px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
-    height: 385px;    
-    background-color: rgb(255, 255, 255); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
+
 .fondo-container6 {
     position: absolute;
-    top: 315%; /* Ajusta la posición superior según tu diseño */
-    left: 234px; /* Ajusta la posición izquierda según tu diseño */
+    top: 315%;
+    /* Ajusta la posición superior según tu diseño */
+    left: 234px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
-    height: 420px;    
-    background-color: rgb(238, 234, 16); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 420px;
+    background-color: rgb(238, 234, 16);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
 
 
 .product-container7 {
     position: absolute;
-    top: 314%; /* Ajusta la posición superior según tu diseño */
-    left: 685px; /* Ajusta la posición izquierda según tu diseño */
+    top: 314%;
+    /* Ajusta la posición superior según tu diseño */
+    left: 685px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 355px;
-    height: 385px;    
-    background-color: rgb(255, 255, 255); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
+
 .fondo-container7 {
     position: absolute;
-    top: 315%; /* Ajusta la posición superior según tu diseño */
-    left: 675px; /* Ajusta la posición izquierda según tu diseño */
+    top: 315%;
+    /* Ajusta la posición superior según tu diseño */
+    left: 675px;
+    /* Ajusta la posición izquierda según tu diseño */
     transform: translateY(-50%);
     z-index: 1;
     width: 385px;
-    height: 420px;    
-    background-color: rgb(238, 234, 16); /* Color de fondo con transparencia */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Forma del contenedor */
+    height: 420px;
+    background-color: rgb(238, 234, 16);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
 }
 
 
 
 /* Estilos para la lista de productos dentro del contenedor */
 .product-list {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el relleno predeterminado de la lista */
 }
 
 /* Estilos para cada elemento de la lista de productos */
 .product-list h3 {
-    font-size: 26px; /* Tamaño de fuente de los elementos de la lista */
-    color: #08701a; /* Color del texto de los elementos de la lista */
-    padding-left: 0px; /* Espacio a la izquierda para mover el elemento */
-    text-align: center; /* Alinea el texto al centro */
-    margin: 0; /* Elimina el margen predeterminado */
-    padding-top: 100px; /* Ajusta el espaciado superior según tu diseño */
+    font-size: 26px;
+    /* Tamaño de fuente de los elementos de la lista */
+    color: #08701a;
+    /* Color del texto de los elementos de la lista */
+    padding-left: 0px;
+    /* Espacio a la izquierda para mover el elemento */
+    text-align: center;
+    /* Alinea el texto al centro */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding-top: 100px;
+    /* Ajusta el espaciado superior según tu diseño */
 
 
 }
@@ -449,27 +556,40 @@ body {
 
 .product-popup {
     /* Estilos para la ventana emergente */
-    background-color: #f8fad7; /* Cambia el color de fondo */
-    border: 1px solid #0a9606; /* Cambia el borde */
-    padding: 10px; /* Cambia el espaciado interior */
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Cambia la sombra */
-    z-index: 2; /* Cambia la posición en el apilamiento de capas */
-    max-width: 400px; /* Cambia el ancho máximo */
-    text-align: center; /* Alinea el texto a la izquierda dentro de la ventana emergente */
+    background-color: #f8fad7;
+    /* Cambia el color de fondo */
+    border: 1px solid #0a9606;
+    /* Cambia el borde */
+    padding: 10px;
+    /* Cambia el espaciado interior */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    /* Cambia la sombra */
+    z-index: 2;
+    /* Cambia la posición en el apilamiento de capas */
+    max-width: 400px;
+    /* Cambia el ancho máximo */
+    text-align: center;
+    /* Alinea el texto a la izquierda dentro de la ventana emergente */
 }
 
 /* Estilos para los enlaces dentro de la ventana emergente */
 .product-popup a {
-    font-size: 18px; /* Cambia el tamaño de fuente del texto */
-    text-decoration: underline; /* Cambia la decoración del enlace */
-    color: #e06e11; /* Cambia el color del enlace */
+    font-size: 18px;
+    /* Cambia el tamaño de fuente del texto */
+    text-decoration: underline;
+    /* Cambia la decoración del enlace */
+    color: #e06e11;
+    /* Cambia el color del enlace */
 }
 
 /* Estilos para el texto dentro de la ventana emergente */
 .product-popup p {
-    font-size: 22px; /* Cambia el tamaño de fuente del texto */
-    color: #333; /* Cambia el color del texto */
-    margin-bottom: 10px; /* Cambia el espaciado inferior */
+    font-size: 22px;
+    /* Cambia el tamaño de fuente del texto */
+    color: #333;
+    /* Cambia el color del texto */
+    margin-bottom: 10px;
+    /* Cambia el espaciado inferior */
 }
 
 
@@ -491,138 +611,163 @@ body {
     width: 357px;
     height: 390px;
     background-color: rgba(65, 177, 20, 0.5);
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    );
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
 }
+
 .hexagon-container4 {
     position: absolute;
     top: 301px;
-    right: -180px; /* Ajusta la posición horizontalmente hacia la derecha */
-    transform: translateY(-50%); /* Alinea verticalmente al centro */
-    z-index: 1; /* Asegura que la imagen esté por encima de los hexágonos */
+    right: -180px;
+    /* Ajusta la posición horizontalmente hacia la derecha */
+    transform: translateY(-50%);
+    /* Alinea verticalmente al centro */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima de los hexágonos */
     width: 357px;
     height: 390px;
-    background-color: rgba(65, 177, 20, 0.5); /* Color de fondo personalizado */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Define la forma del hexágono */
-    box-shadow: 0px 10px 10px rgba(211, 208, 208, 0.5); /* Agrega una sombra en la parte inferior */
+    background-color: rgba(65, 177, 20, 0.5);
+    /* Color de fondo personalizado */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Define la forma del hexágono */
+    box-shadow: 0px 10px 10px rgba(211, 208, 208, 0.5);
+    /* Agrega una sombra en la parte inferior */
 
 }
 
 .hexagon-container2f {
     position: absolute;
-    top: 302px; /* Centra verticalmente */
-    right: 181px; /* Ajusta la posición horizontalmente hacia la derecha */
-    transform: translateY(-50%); /* Alinea verticalmente al centro */
-    z-index: 1; /* Asegura que la imagen esté por encima de los hexágonos */
+    top: 302px;
+    /* Centra verticalmente */
+    right: 181px;
+    /* Ajusta la posición horizontalmente hacia la derecha */
+    transform: translateY(-50%);
+    /* Alinea verticalmente al centro */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima de los hexágonos */
     width: 363px;
     height: 391px;
-    background-color: rgba(22, 247, 14, 0.5); /* Color de fondo personalizado */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Define la forma del hexágono */
+    background-color: rgba(22, 247, 14, 0.5);
+    /* Color de fondo personalizado */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Define la forma del hexágono */
 
 }
 
 .hexagon-container2 {
     position: absolute;
-    top: 302px; /* Centra verticalmente */
-    right: 187px; /* Ajusta la posición horizontalmente hacia la derecha */
-    transform: translateY(-50%); /* Alinea verticalmente al centro */
-    z-index: 1; /* Asegura que la imagen esté por encima de los hexágonos */
+    top: 302px;
+    /* Centra verticalmente */
+    right: 187px;
+    /* Ajusta la posición horizontalmente hacia la derecha */
+    transform: translateY(-50%);
+    /* Alinea verticalmente al centro */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima de los hexágonos */
     width: 350px;
     height: 375px;
-    background-color: rgba(65, 177, 20, 0.5); /* Color de fondo personalizado */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Define la forma del hexágono */
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra en la parte inferior */
+    background-color: rgba(65, 177, 20, 0.5);
+    /* Color de fondo personalizado */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Define la forma del hexágono */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    /* Agrega una sombra en la parte inferior */
 
 }
 
 
 .hexagon-container3 {
     position: absolute;
-    top: 598px; /* Centra verticalmente */
-    right: 2px; /* Ajusta la posición horizontalmente hacia la derecha */
-    transform: translateY(-50%); /* Alinea verticalmente al centro */
-    z-index: 1; /* Asegura que la imagen esté por encima de los hexágonos */
+    top: 598px;
+    /* Centra verticalmente */
+    right: 2px;
+    /* Ajusta la posición horizontalmente hacia la derecha */
+    transform: translateY(-50%);
+    /* Alinea verticalmente al centro */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima de los hexágonos */
     width: 357px;
     height: 390px;
-    background-color: rgba(65, 177, 20, 0.5); /* Color de fondo personalizado */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Define la forma del hexágono */
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra en la parte inferior */
+    background-color: rgba(65, 177, 20, 0.5);
+    /* Color de fondo personalizado */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Define la forma del hexágono */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    /* Agrega una sombra en la parte inferior */
 
 }
 
 
 .hexagon-container1 {
     position: absolute;
-    top: 5px; /* Centra verticalmente */
-    right: 3px; /* Ajusta la posición horizontalmente hacia la derecha */
-    transform: translateY(-50%); /* Alinea verticalmente al centro */
-    z-index: 1; /* Asegura que la imagen esté por encima de los hexágonos */
+    top: 5px;
+    /* Centra verticalmente */
+    right: 3px;
+    /* Ajusta la posición horizontalmente hacia la derecha */
+    transform: translateY(-50%);
+    /* Alinea verticalmente al centro */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima de los hexágonos */
     width: 357px;
     height: 390px;
-    background-color: rgba(65, 177, 20, 0.5); /* Color de fondo personalizado */
-    clip-path: polygon(
-        50% 0%,
-        100% 25%,
-        100% 75%,
-        50% 100%,
-        0% 75%,
-        0% 25%
-    ); /* Define la forma del hexágono */
+    background-color: rgba(65, 177, 20, 0.5);
+    /* Color de fondo personalizado */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Define la forma del hexágono */
 }
 
 
 .hexagon-container5 {
-  position: absolute;
-  top: 894px; /* Centra verticalmente */
-  right: -181px; /* Ajusta la posición horizontalmente hacia la derecha */
-  transform: translateY(-50%); /* Alinea verticalmente al centro */
-  z-index: 1; /* Asegura que la imagen esté por encima de los hexágonos */
-  width: 357px;
-  height: 390px;
-  background-color: rgba(65, 177, 20, 0.5); /* Color de fondo personalizado */
-  clip-path: polygon(
-      50% 0%,
-      100% 25%,
-      100% 75%,
-      50% 100%,
-      0% 75%,
-      0% 25%
-  ); /* Define la forma del hexágono */
-} 
+    position: absolute;
+    top: 894px;
+    /* Centra verticalmente */
+    right: -181px;
+    /* Ajusta la posición horizontalmente hacia la derecha */
+    transform: translateY(-50%);
+    /* Alinea verticalmente al centro */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima de los hexágonos */
+    width: 357px;
+    height: 390px;
+    background-color: rgba(65, 177, 20, 0.5);
+    /* Color de fondo personalizado */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Define la forma del hexágono */
+}
 
 
 
@@ -643,20 +788,27 @@ body {
 
 /* Estilos para la sección "empresa1" */
 #empresa1 {
-    position: absolute; /* Cambiado a relativo para que los elementos fluyan en el documento */
-    margin-top: 1220px; /* Ajusta el espacio superior según tu preferencia */
-    background-color: #f2f898; /* Cambia el color de fondo según tus preferencias */
-    padding: 70px; /* Añade espacio interno para separar el contenido del borde */
-    text-align: center; /* Alinea el contenido al centro */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    position: absolute;
+    /* Cambiado a relativo para que los elementos fluyan en el documento */
+    margin-top: 1220px;
+    /* Ajusta el espacio superior según tu preferencia */
+    background-color: #f2f898;
+    /* Cambia el color de fondo según tus preferencias */
+    padding: 70px;
+    /* Añade espacio interno para separar el contenido del borde */
+    text-align: center;
+    /* Alinea el contenido al centro */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra ligera */
 }
 
 /* Estilos para el título de la sección "empresa1" */
-#empresa1 h2{
+#empresa1 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 33px;
     color: #ce890a;
-    margin: 0 0 20px; /* Espaciado inferior del título */
+    margin: 0 0 20px;
+    /* Espaciado inferior del título */
 }
 
 /* Estilos para el texto de la sección "empresa1" */
@@ -664,7 +816,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 28px;
     color: #2f8d0a;
-    margin: 0 0 30px; /* Espaciado inferior del texto */
+    margin: 0 0 30px;
+    /* Espaciado inferior del texto */
     text-align: center;
 }
 
@@ -673,13 +826,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Alinea los elementos verticalmente */
+    flex-direction: column;
+    /* Alinea los elementos verticalmente */
 }
 
 /* Estilos para una imagen si deseas agregar una */
 #empresa1 img {
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho de su contenedor */
-    margin-bottom: 20px; /* Espaciado inferior de la imagen */
+    max-width: 100%;
+    /* Asegura que la imagen no exceda el ancho de su contenedor */
+    margin-bottom: 20px;
+    /* Espaciado inferior de la imagen */
 }
 
 
@@ -687,8 +843,9 @@ body {
 /* Estilos para la sección de testimonios */
 #testimonials {
     margin-top: 1615px;
-    padding: 10px ;
-    background-color: #f7fccd; /* Color de fondo de la sección */
+    padding: 10px;
+    background-color: #f7fccd;
+    /* Color de fondo de la sección */
 }
 
 
@@ -697,7 +854,8 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    overflow-x: hidden; /* Para ocultar los testimonios adicionales */
+    overflow-x: hidden;
+    /* Para ocultar los testimonios adicionales */
 }
 
 .testimonial {
@@ -714,6 +872,7 @@ body {
     font-size: 20px;
     color: #2a681a;
 }
+
 .nombre-cliente {
     font-size: 16px;
     color: #b1a501;
@@ -726,12 +885,16 @@ body {
 
 /* Estilos generales para el pie de página */
 footer {
-    position: relative; /* Para que el pie de página pueda contener la imagen */
+    position: relative;
+    /* Para que el pie de página pueda contener la imagen */
     margin-top: 15px;
-    background-color: #f0f87f; /* Cambia el color de fondo según tus preferencias */
-    color: #19660f; /* Cambia el color del texto según tus preferencias */
+    background-color: #f0f87f;
+    /* Cambia el color de fondo según tus preferencias */
+    color: #19660f;
+    /* Cambia el color del texto según tus preferencias */
     text-align: center;
-    padding: 15px 0; /* Espaciado interno superior e inferior del pie de página */
+    padding: 15px 0;
+    /* Espaciado interno superior e inferior del pie de página */
     width: 100%;
 }
 
@@ -741,23 +904,32 @@ footer {
     margin-left: 540px;
     position: absolute;
     flex-direction: column;
-    align-items: center; /* Centra horizontalmente la imagen y la descripción */
+    align-items: center;
+    /* Centra horizontalmente la imagen y la descripción */
 }
 
 .image-with-description img {
     padding: 20px;
-    max-width: 200px; /* Ancho máximo de la imagen */
-    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
-    border: 2px solid #333; /* Agrega un borde a la imagen */
-    border-radius: 10px; /* Agrega esquinas redondeadas */
-    margin-bottom: 20px; /* Espacio entre la imagen y la descripción */
+    max-width: 200px;
+    /* Ancho máximo de la imagen */
+    height: auto;
+    /* Ajusta la altura automáticamente para mantener la proporción */
+    border: 2px solid #333;
+    /* Agrega un borde a la imagen */
+    border-radius: 10px;
+    /* Agrega esquinas redondeadas */
+    margin-bottom: 20px;
+    /* Espacio entre la imagen y la descripción */
 }
 
 .image-with-description span {
     margin-left: -200px;
-    font-size: 18px; /* Tamaño de fuente para la descripción */
-    margin-top: 5px; /* Espacio entre la imagen y la descripción */
-    color: #2c7e1b; /* Color del texto según tus preferencias */
+    font-size: 18px;
+    /* Tamaño de fuente para la descripción */
+    margin-top: 5px;
+    /* Espacio entre la imagen y la descripción */
+    color: #2c7e1b;
+    /* Color del texto según tus preferencias */
 }
 
 
@@ -776,34 +948,44 @@ footer {
     margin-right: 220px;
     list-style: l;
     padding: 0;
-    text-align: center; /* Alinea el texto del menú a la derecha */
+    text-align: center;
+    /* Alinea el texto del menú a la derecha */
 }
 
 .footer-menu li {
-    display: inline; /* Cambia el comportamiento a bloque para crear una lista vertical */
-    margin-left: 44px; /* Espacio vertical entre las opciones del menú */
+    display: inline;
+    /* Cambia el comportamiento a bloque para crear una lista vertical */
+    margin-left: 44px;
+    /* Espacio vertical entre las opciones del menú */
 }
 
 /* Estilo para el texto de derechos de autor */
 .copyright {
     margin-top: 49px;
-    padding-top: 100px; /* Agrega espacio superior con padding en lugar de margen */
+    padding-top: 100px;
+    /* Agrega espacio superior con padding en lugar de margen */
 }
+
 /* Estilo para el texto de derechos de autor */
 footer p {
-    font-size: 16px; /* Ajusta el tamaño del texto de derechos de autor según tu preferencia */
+    font-size: 16px;
+    /* Ajusta el tamaño del texto de derechos de autor según tu preferencia */
 }
 
 /* Estilo para el enlace de derechos de autor (© 2023 APISENA - Carlos Arboleda) */
 footer a {
-    font-size: 22px; /* Ajusta el tamaño del texto de los enlaces según tu preferencia */
-    color: #187a1d; /* Cambia el color del enlace según tus preferencias */
-    text-decoration: none; /* Elimina la subraya predeterminada del enlace */
+    font-size: 22px;
+    /* Ajusta el tamaño del texto de los enlaces según tu preferencia */
+    color: #187a1d;
+    /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none;
+    /* Elimina la subraya predeterminada del enlace */
 }
 
 /* Estilo para el enlace cuando se coloca el cursor sobre él */
 footer a:hover {
-    text-decoration: underline; /* Agrega una subraya cuando se coloca el cursor sobre el enlace */
+    text-decoration: underline;
+    /* Agrega una subraya cuando se coloca el cursor sobre el enlace */
 }
 
 
@@ -817,37 +999,47 @@ footer .facebook-button {
     left: 23px;
     top: 80px;
     display: inline-block;
-    background-color: #1877f2; /* Cambia el color de fondo según tus preferencias */
-    color: #fff; /* Cambia el color del texto según tus preferencias */
-    padding: 15px 25px; /* Aumenta el espacio alrededor del icono */
+    background-color: #1877f2;
+    /* Cambia el color de fondo según tus preferencias */
+    color: #fff;
+    /* Cambia el color del texto según tus preferencias */
+    padding: 15px 25px;
+    /* Aumenta el espacio alrededor del icono */
     border-radius: 32px;
-    text-decoration: none; /* Elimina la subraya predeterminada del enlace */
-    font-size: 38px; /* Ajusta el tamaño del texto según tu preferencia */
-    margin-right: 20px; /* Espacio entre el botón de Facebook y las opciones de menú */
-    transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
+    text-decoration: none;
+    /* Elimina la subraya predeterminada del enlace */
+    font-size: 38px;
+    /* Ajusta el tamaño del texto según tu preferencia */
+    margin-right: 20px;
+    /* Espacio entre el botón de Facebook y las opciones de menú */
+    transition: background-color 0.3s;
+    /* Agrega una transición suave al color de fondo */
 }
 
 /* Cambia el color de fondo cuando se coloca el cursor sobre el botón de Facebook */
 footer .facebook-button:hover {
-    background-color: #1558c3; /* Cambia el color de fondo en el estado de hover */
+    background-color: #1558c3;
+    /* Cambia el color de fondo en el estado de hover */
 }
 
 
 
-  #whatsapp-button {
+#whatsapp-button {
     position: fixed;
     bottom: 30px;
     left: 20px;
     z-index: 1000;
     background-color: #288d28;
     color: #fff;
-    padding: 18px 23px; /* Aumenta el espacio alrededor del icono */
+    padding: 18px 23px;
+    /* Aumenta el espacio alrededor del icono */
     border-radius: 32px;
 }
 
 #whatsapp-button a {
     text-decoration: none;
-    font-size: 33px; /* Ajusta el tamaño del icono según tu preferencia */
+    font-size: 33px;
+    /* Ajusta el tamaño del icono según tu preferencia */
     color: #dceb0b;
 
 }
@@ -856,16 +1048,758 @@ footer .facebook-button:hover {
 
 /* Estilos generales para pantallas grandes */
 /* Por ejemplo, escritorios */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 999px) {
     /* Aquí puedes agregar estilos para pantallas grandes */
+
+
+
+    /* Estilos para el panal de imágenes */
+    .hexagon-container {
+        position: absolute;
+        top: 5px;
+        right: 365px;
+        transform: translateY(-50%);
+        z-index: 1;
+        width: 357px;
+        height: 390px;
+        background-color: rgba(65, 177, 20, 0.5);
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+    }
+
+    .hexagon-container4 {
+        position: absolute;
+        top: 301px;
+        right: -180px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 357px;
+        height: 390px;
+        background-color: rgba(65, 177, 20, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+        box-shadow: 0px 10px 10px rgba(211, 208, 208, 0.5);
+        /* Agrega una sombra en la parte inferior */
+
+    }
+
+    .hexagon-container2f {
+        position: absolute;
+        top: 302px;
+        /* Centra verticalmente */
+        right: 181px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 363px;
+        height: 391px;
+        background-color: rgba(22, 247, 14, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+    .hexagon-container2 {
+        position: absolute;
+        top: 302px;
+        /* Centra verticalmente */
+        right: 187px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 350px;
+        height: 375px;
+        background-color: rgba(65, 177, 20, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+        /* Agrega una sombra en la parte inferior */
+
+    }
+
+
+    .hexagon-container3 {
+        position: absolute;
+        top: 598px;
+        /* Centra verticalmente */
+        right: 2px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 357px;
+        height: 390px;
+        background-color: rgba(65, 177, 20, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+        /* Agrega una sombra en la parte inferior */
+
+    }
+
+
+    .hexagon-container1 {
+        position: absolute;
+        top: 5px;
+        /* Centra verticalmente */
+        right: 3px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 357px;
+        height: 390px;
+        background-color: rgba(65, 177, 20, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+    }
+
+
+    .hexagon-container5 {
+        position: absolute;
+        top: 894px;
+        /* Centra verticalmente */
+        right: -181px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 357px;
+        height: 390px;
+        background-color: rgba(65, 177, 20, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+    }
+
+
+
+
+
+
 }
 
 /* Estilos para pantallas medianas, como tablets */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1223px) {
     /* Estilos para tabletas */
+
+
+    
+/* Estilos para la barra de navegación */
+.main-navigation {
+    position: relative;
+    left: 20px;
+    /* Mueve la barra de navegación hacia la derecha */
+    top: 90px;
+    /* Baja la barra de navegación 20 píxeles desde la parte superior */
+}
+
+
+.main-navigation ul li {
+    display: inline;
+    /* Organiza los elementos horizontalmente */
+    margin-right: 10px;
+    /* Espaciado entre los elementos */
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    color: #44aa2b;
+    /* Color del texto de los enlaces */
+    padding: 12px 26px;
+    /* Espaciado interno para el fondo del enlace */
+    background-color: #f1e8b0;
+    /* Color de fondo predeterminado */
+    border: 2px solid #f1f514;
+    /* Borde alrededor del enlace */
+    border-radius: 12px;
+    /* Bordes redondeados */
+    transition: background-color 0.2s;
+    /* Transición de color de fondo */
+    font-size: 16px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+
+}
+
+.nav-link:hover {
+    background-color: #5d8d51;
+    /* Cambia el color de fondo al pasar el mouse */
+    color: #fdf8af;
+    /* Cambia el color del texto al pasar el mouse */
+}
+
+
+    .hexagon-container1 {
+        position: absolute;
+        top: -05px;
+        /* Centra verticalmente */
+        right: 1px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 244px;
+        height: 266px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+    }
+
+    /* Estilos para el panal de imágenes */
+    .hexagon-container {
+        position: absolute;
+        top: -5px;
+        right: 248px;
+        transform: translateY(-50%);
+        z-index: 1;
+        width: 244px;
+        height: 264px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+    }
+
+    .hexagon-container4 {
+        position: absolute;
+        top: 197px;
+        right: -122px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 244px;
+        height: 264px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+    .hexagon-container2f {
+        position: absolute;
+        top: 195px;
+        /* Centra verticalmente */
+        right: 124px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 245px;
+        height: 265px;
+        background-color: rgba(232, 247, 14, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+    .hexagon-container2 {
+        position: absolute;
+        top: 198px;
+        /* Centra verticalmente */
+        right: 128px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 240px;
+        height: 262px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+
+    .hexagon-container3 {
+        position: absolute;
+        top: 398px;
+        /* Centra verticalmente */
+        right: 1px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 244px;
+        height: 264px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+
+
+    .hexagon-container5 {
+        position: absolute;
+        top: 601px;
+        /* Centra verticalmente */
+        right: -121px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 244px;
+        height: 265px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+    }
+
+
+
+}
+/* Estilos para pantallas medianas, como tablets */
+@media screen and (max-width: 893px) {
+    /* Estilos para tabletas */
+
+
+    
+/* Estilos para la barra de navegación */
+.main-navigation {
+    position: relative;
+    left: 15px;
+    /* Mueve la barra de navegación hacia la derecha */
+    top: 120px;
+    /* Baja la barra de navegación 20 píxeles desde la parte superior */
+}
+
+
+.main-navigation ul li {
+    display: inline;
+    /* Organiza los elementos horizontalmente */
+    margin-right: 5px;
+    /* Espaciado entre los elementos */
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    color: #44aa2b;
+    /* Color del texto de los enlaces */
+    padding: 12px 16px;
+    /* Espaciado interno para el fondo del enlace */
+    background-color: #f1e8b0;
+    /* Color de fondo predeterminado */
+    border: 2px solid #f1f514;
+    /* Borde alrededor del enlace */
+    border-radius: 12px;
+    /* Bordes redondeados */
+    transition: background-color 0.2s;
+    /* Transición de color de fondo */
+    font-size: 14px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+
+}
+
+.nav-link:hover {
+    background-color: #5d8d51;
+    /* Cambia el color de fondo al pasar el mouse */
+    color: #fdf8af;
+    /* Cambia el color del texto al pasar el mouse */
+}
+
+
+
+
+
+    .hexagon-container1 {
+        position: absolute;
+        top: -05px;
+        /* Centra verticalmente */
+        right: 1px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 244px;
+        height: 266px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+    }
+
+    /* Estilos para el panal de imágenes */
+    .hexagon-container {
+        position: absolute;
+        top: -5px;
+        right: 248px;
+        transform: translateY(-50%); 
+        z-index: 1;
+        width: 244px;
+        height: 264px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+    }
+
+    .hexagon-container4 {
+        position: absolute;
+        top: 197px;
+        right: -122px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 244px;
+        height: 264px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+    .hexagon-container2f {
+        position: absolute;
+        top: 195px;
+        /* Centra verticalmente */
+        right: 124px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 245px;
+        height: 265px;
+        background-color: rgba(232, 247, 14, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+    .hexagon-container2 {
+        position: absolute;
+        top: 198px;
+        /* Centra verticalmente */
+        right: 128px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 240px;
+        height: 262px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+
+    .hexagon-container3 {
+        position: absolute;
+        top: 398px;
+        /* Centra verticalmente */
+        right: 1px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 244px;
+        height: 264px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+
+
+    .hexagon-container5 {
+        position: absolute;
+        top: 601px;
+        /* Centra verticalmente */
+        right: -121px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 244px;
+        height: 265px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+    }
+
+
+
 }
 
 /* Estilos para pantallas pequeñas, como teléfonos móviles */
-@media screen and (max-width: 767px) {
+@media screen and (max-width:768px) {
     /* Estilos para teléfonos móviles */
+    
+    .hexagon-container1 {
+        position: absolute;
+        top: 20px;
+        /* Centra verticalmente */
+        right: -11px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 199px;
+        height: 220px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+    }
+
+
+    /* Estilos para el panal de imágenes */
+    .hexagon-container {
+        position: absolute;
+        top: 18px;
+        right: 190px;
+        transform: translateY(-50%);
+        z-index: 1;
+        width: 199px;
+        height: 220px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+    }
+
+    .hexagon-container4 {
+        position: absolute;
+        top: 187px;
+        right: -111px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 199px;
+        height: 220px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+    .hexagon-container2f {
+        position: absolute;
+        top: 186px;
+        /* Centra verticalmente */
+        right: 89px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 203px;
+        height: 223px;
+        background-color: rgba(14, 153, 9, 0.5);
+        /* Color de fondo personalizado */
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+    .hexagon-container2 {
+        position: absolute;
+        top: 186px;
+        /* Centra verticalmente */
+        right: 92px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 197px;
+        height: 220px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+
+    .hexagon-container3 {
+        position: absolute;
+        top: 353px;
+        /* Centra verticalmente */
+        right: -7px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 195px;
+        height: 220px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+
+    }
+
+
+
+    .hexagon-container5 {
+        position: absolute;
+        top: 5px;
+        /* Centra verticalmente */
+        right: -105px;
+        /* Ajusta la posición horizontalmente hacia la derecha */
+        transform: translateY(-50%);
+        /* Alinea verticalmente al centro */
+        z-index: 1;
+        /* Asegura que la imagen esté por encima de los hexágonos */
+        width: 195px;
+        height: 220px;
+        clip-path: polygon(50% 0%,
+                100% 25%,
+                100% 75%,
+                50% 100%,
+                0% 75%,
+                0% 25%);
+        /* Define la forma del hexágono */
+    }
+
+
+
 }
