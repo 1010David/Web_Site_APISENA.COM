@@ -1075,14 +1075,14 @@ footer .facebook-button:hover {
     position: relative;
     left: 15px;
     /* Mueve la barra de navegación hacia la derecha */
-    top: 1px;
+    top: -1px;
     /* Baja la barra de navegación 20 píxeles desde la parte superior */
 }
 
 .main-navigation ul li {
     display: block;
     /* Organiza los elementos horizontalmente */
-    margin-top: 20px;
+    margin-top: 13px;
     /* Espaciado entre los elementos */
 }
 
@@ -1092,11 +1092,11 @@ footer .facebook-button:hover {
     /* Elimina el subrayado de los enlaces */
     color: #44aa2b;
     /* Color del texto de los enlaces */
-    padding: 6px 25px;
+    padding: 4px 33px;
     /* Espaciado interno para el fondo del enlace */
     background-color: #f1e8b0;
     /* Color de fondo predeterminado */
-    border: 2px solid #f1f514;
+    border: 1.5px solid #f1f514;
     /* Borde alrededor del enlace */
     border-radius: 12px;
     /* Bordes redondeados */
@@ -1120,7 +1120,7 @@ footer .facebook-button:hover {
 .title-container {
     text-align: left;
     /* Alineación centrada horizontalmente */
-    padding-top: 10px;
+    padding-top: 20px;
     /* Espacio superior para mover hacia abajo */
     padding-bottom: 15px;
     /* Espacio inferior opcional */
@@ -1229,6 +1229,415 @@ footer .facebook-button:hover {
 
 
 
+#empresa {
+    margin-top: 100px;
+    /* Ajusta el espacio superior según tu preferencia */
+    margin-left: 60px;
+    /* Ajusta el espacio izquierdo según tu preferencia */
+    margin-right: 95px;
+    /* Ajusta el espacio izquierdo según tu preferencia */
+
+    /* Otros estilos para la sección, como fondo, color de texto, etc. */
+}
+
+/* Estilos para el título de la sección "empresa" */
+#empresa h2 {
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Tipo de fuente predeterminado */
+    font-size: 28px;
+    /* Tamaño de fuente del título */
+    color: #287909;
+    /* Color del texto del título */
+    margin: 0 0 200px -30px;
+    /* Espaciado inferior, margen izquierdo para el título */
+}
+
+/* Estilos para la descripción de la sección "empresa" */
+#empresa p {
+    margin-right: 60px;
+    /* Ajusta el espacio izquierdo según tu preferencia */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Tipo de fuente predeterminado */
+    font-size: 25px;
+    /* Tamaño de fuente de la descripción */
+    color: #b95c05;
+    /* Color del texto de la descripción */
+    white-space: pre-line;
+    /* Permite mantener los saltos de línea */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hexagon-containerp {
+    position: absolute;
+    top: 1419px;
+    left: 177px;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 385px;
+    height: 419px;
+    background-color: rgba(238, 245, 200, 0.5);
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+}
+
+.hexagon-containerp img {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-40%, -60%);
+    /* Centra la imagen horizontal y verticalmente */
+    max-width: 120%;
+    /* Ajusta el tamaño máximo de la imagen al contenedor */
+    max-height: 120%;
+}
+
+
+.product-container4 {
+    position: absolute;
+    top: 1735px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 5px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 355px;
+    height: 385px;
+    background-color: rgba(255, 255, 255);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+.fondo-container4 {
+    position: absolute;
+    top: 1740px;
+    /* Ajusta la posición superior según tu diseño */
+    left: -20px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 385px;
+    height: 420px;
+    background-color: rgb(243, 240, 72);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+
+.product-container2 {
+    position: absolute;
+    top: 2059px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 183px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 355px;
+    height: 385px;
+    background-color: rgba(252, 252, 252);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+.fondo-container2 {
+    position: absolute;
+    top: 2058px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 176px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 385px;
+    height: 420px;
+    background-color: rgb(247, 244, 64);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+
+.product-container3 {
+    position: absolute;
+    top: 2371px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 4px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 355px;
+    height: 385px;
+    background-color: rgb(250, 250, 248);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+.fondo-container3 {
+    position: absolute;
+    top: 2378px;
+    /* Ajusta la posición superior según tu diseño */
+    left: -16px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 385px;
+    height: 420px;
+    background-color: rgb(238, 234, 16);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+
+
+
+.product-container5 {
+    position: absolute;
+    top: 2200px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 288px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 355px;
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+.fondo-container5 {
+    position: absolute;
+    top: 2200px;
+    /* Ajusta la posición superior según tu diseño */
+    left: 283px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 385px;
+    height: 420px;
+    background-color: rgb(238, 234, 16);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+.product-container6 {
+    position: absolute;
+    top: 414%;
+    /* Ajusta la posición superior según tu diseño */
+    left: 250px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 355px;
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+.fondo-container6 {
+    position: absolute;
+    top: 415%;
+    /* Ajusta la posición superior según tu diseño */
+    left: 234px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 385px;
+    height: 420px;
+    background-color: rgb(238, 234, 16);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+
+.product-container7 {
+    position: absolute;
+    top: 424%;
+    /* Ajusta la posición superior según tu diseño */
+    left: 85px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 355px;
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+.fondo-container7 {
+    position: absolute;
+    top: 425%;
+    /* Ajusta la posición superior según tu diseño */
+    left: 75px;
+    /* Ajusta la posición izquierda según tu diseño */
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 385px;
+    height: 420px;
+    background-color: rgb(238, 234, 16);
+    /* Color de fondo con transparencia */
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    /* Forma del contenedor */
+}
+
+
+
+/* Estilos para la lista de productos dentro del contenedor */
+.product-list {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el relleno predeterminado de la lista */
+}
+
+/* Estilos para cada elemento de la lista de productos */
+.product-list h3 {
+    font-size: 26px;
+    /* Tamaño de fuente de los elementos de la lista */
+    color: #08701a;
+    /* Color del texto de los elementos de la lista */
+    padding-left: 0px;
+    /* Espacio a la izquierda para mover el elemento */
+    text-align: center;
+    /* Alinea el texto al centro */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding-top: 100px;
+    /* Ajusta el espaciado superior según tu diseño */
+
+
+}
+
+
+
+.product-popup {
+    /* Estilos para la ventana emergente */
+    background-color: #f8fad7;
+    /* Cambia el color de fondo */
+    border: 1px solid #0a9606;
+    /* Cambia el borde */
+    padding: 10px;
+    /* Cambia el espaciado interior */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    /* Cambia la sombra */
+    z-index: 2;
+    /* Cambia la posición en el apilamiento de capas */
+    max-width: 400px;
+    /* Cambia el ancho máximo */
+    text-align: center;
+    /* Alinea el texto a la izquierda dentro de la ventana emergente */
+}
+
+/* Estilos para los enlaces dentro de la ventana emergente */
+.product-popup a {
+    font-size: 18px;
+    /* Cambia el tamaño de fuente del texto */
+    text-decoration: underline;
+    /* Cambia la decoración del enlace */
+    color: #e06e11;
+    /* Cambia el color del enlace */
+}
+
+/* Estilos para el texto dentro de la ventana emergente */
+.product-popup p {
+    font-size: 22px;
+    /* Cambia el tamaño de fuente del texto */
+    color: #333;
+    /* Cambia el color del texto */
+    margin-bottom: 10px;
+    /* Cambia el espaciado inferior */
+}
 
 
 
@@ -1424,5 +1833,272 @@ footer .facebook-button:hover {
                 0% 25%);
         /* Define la forma del hexágono */
     }
+
+
+    
+#whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    left: 5px;
+    z-index: 1000;
+    background-color: #088f08;
+    color: #fff;
+    padding: 10px 15px;
+    /* Aumenta el espacio alrededor del icono */
+    border-radius: 32px;
+}
+
+#whatsapp-button a {
+    text-decoration: none;
+    font-size: 33px;
+    /* Ajusta el tamaño del icono según tu preferencia */
+    color: #dceb0b;
+
+}
+
+
+
+
+
+
+
+/* Estilos para la sección "empresa1" */
+#empresa1 {
+    position: absolute;
+    /* Cambiado a relativo para que los elementos fluyan en el documento */
+    margin-top: 2320px;
+    /* Ajusta el espacio superior según tu preferencia */
+    background-color: #f2f898;
+    /* Cambia el color de fondo según tus preferencias */
+    padding: 70px;
+    /* Añade espacio interno para separar el contenido del borde */
+    text-align: center;
+    /* Alinea el contenido al centro */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra ligera */
+}
+
+/* Estilos para el título de la sección "empresa1" */
+#empresa1 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 33px;
+    color: #ce890a;
+    margin: 0 0 20px;
+    /* Espaciado inferior del título */
+}
+
+/* Estilos para el texto de la sección "empresa1" */
+#empresa1 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    color: #2f8d0a;
+    margin: 0 0 30px;
+    /* Espaciado inferior del texto */
+    text-align: center;
+}
+
+/* Estilos para el contenedor de la sección "empresa1" */
+#empresa1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Alinea los elementos verticalmente */
+}
+
+/* Estilos para una imagen si deseas agregar una */
+#empresa1 img {
+    max-width: 100%;
+    /* Asegura que la imagen no exceda el ancho de su contenedor */
+    margin-bottom: 20px;
+    /* Espaciado inferior de la imagen */
+}
+
+
+
+/* Estilos para la sección de testimonios */
+#testimonials {
+    margin-top: 2915px;
+    padding: 10px;
+    background-color: #f7fccd;
+    /* Color de fondo de la sección */
+}
+
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    /* Para ocultar los testimonios adicionales */
+}
+
+.testimonial {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 50px;
+    max-width: 250px;
+    box-shadow: 0px 0px 15px rgba(67, 224, 5, 0.2);
+    margin: 10px;
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 20px;
+    color: #2a681a;
+}
+
+.nombre-cliente {
+    font-size: 16px;
+    color: #b1a501;
+}
+
+
+
+
+
+
+
+
+
+/* Estilos generales para el pie de página */
+footer {
+    position: relative;
+    /* Para que el pie de página pueda contener la imagen */
+    margin-top: 1405px;
+    background-color: #f0f87f;
+    /* Cambia el color de fondo según tus preferencias */
+    color: #19660f;
+    /* Cambia el color del texto según tus preferencias */
+    text-align: center;
+    padding: 15px 0;
+    /* Espaciado interno superior e inferior del pie de página */
+    width: 100%;
+}
+
+/* Estilos para la imagen con descripción */
+.image-with-description {
+    margin-top: 10px;
+    margin-left: 540px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    /* Centra horizontalmente la imagen y la descripción */
+}
+
+.image-with-description img {
+    padding: 20px;
+    max-width: 200px;
+    /* Ancho máximo de la imagen */
+    height: auto;
+    /* Ajusta la altura automáticamente para mantener la proporción */
+    border: 2px solid #333;
+    /* Agrega un borde a la imagen */
+    border-radius: 10px;
+    /* Agrega esquinas redondeadas */
+    margin-bottom: 20px;
+    /* Espacio entre la imagen y la descripción */
+}
+
+.image-with-description span {
+    margin-left: -200px;
+    font-size: 18px;
+    /* Tamaño de fuente para la descripción */
+    margin-top: 5px;
+    /* Espacio entre la imagen y la descripción */
+    color: #2c7e1b;
+    /* Color del texto según tus preferencias */
+}
+
+
+
+/* Estilos para el contenido del pie de página */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* Estilos para el menú de opciones */
+.footer-menu ul {
+    margin-right: 220px;
+    list-style: l;
+    padding: 0;
+    text-align: center;
+    /* Alinea el texto del menú a la derecha */
+}
+
+.footer-menu li {
+    display: inline;
+    /* Cambia el comportamiento a bloque para crear una lista vertical */
+    margin-left: 44px;
+    /* Espacio vertical entre las opciones del menú */
+}
+
+/* Estilo para el texto de derechos de autor */
+.copyright {
+    margin-top: 49px;
+    padding-top: 100px;
+    /* Agrega espacio superior con padding en lugar de margen */
+}
+
+/* Estilo para el texto de derechos de autor */
+footer p {
+    font-size: 16px;
+    /* Ajusta el tamaño del texto de derechos de autor según tu preferencia */
+}
+
+/* Estilo para el enlace de derechos de autor (© 2023 APISENA - Carlos Arboleda) */
+footer a {
+    font-size: 22px;
+    /* Ajusta el tamaño del texto de los enlaces según tu preferencia */
+    color: #187a1d;
+    /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none;
+    /* Elimina la subraya predeterminada del enlace */
+}
+
+/* Estilo para el enlace cuando se coloca el cursor sobre él */
+footer a:hover {
+    text-decoration: underline;
+    /* Agrega una subraya cuando se coloca el cursor sobre el enlace */
+}
+
+
+
+
+
+
+/* Estilo para el botón de Facebook en el pie de página */
+footer .facebook-button {
+    position: relative;
+    left: 23px;
+    top: 80px;
+    display: inline-block;
+    background-color: #1877f2;
+    /* Cambia el color de fondo según tus preferencias */
+    color: #fff;
+    /* Cambia el color del texto según tus preferencias */
+    padding: 15px 25px;
+    /* Aumenta el espacio alrededor del icono */
+    border-radius: 32px;
+    text-decoration: none;
+    /* Elimina la subraya predeterminada del enlace */
+    font-size: 38px;
+    /* Ajusta el tamaño del texto según tu preferencia */
+    margin-right: 20px;
+    /* Espacio entre el botón de Facebook y las opciones de menú */
+    transition: background-color 0.3s;
+    /* Agrega una transición suave al color de fondo */
+}
+
+/* Cambia el color de fondo cuando se coloca el cursor sobre el botón de Facebook */
+footer .facebook-button:hover {
+    background-color: #1558c3;
+    /* Cambia el color de fondo en el estado de hover */
+}
 
 }
